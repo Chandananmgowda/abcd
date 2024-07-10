@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Test Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="login-form">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="typing-test" style="display: none;">
+      <h2>Type Chenda </h2>
+      <p id="test-text"></p>
+      <textarea id="typed-text" rows="5"></textarea>
+      <button onclick="submitTest()">Submit</button>
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
